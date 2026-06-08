@@ -10,6 +10,10 @@ import slide4 from '../assets/images/peer/training.png';
 import slide5 from '../assets/images/peer/fig4.jpg';
 import slide6 from '../assets/images/peer/fig5.jpg';
 import slide7 from '../assets/images/peer/fig6.jpg';
+import jikanwari_1 from '../assets/files/peer/jikanwari_1.pdf';
+import jikanwari_2 from '../assets/files/peer/jikanwari_2.pdf';
+import jikanwari_3 from '../assets/files/peer/jikanwari_3.pdf';
+import oyakudachi_2026 from '../assets/files/peer/oyakudachi_2026.pdf';
 
 const slides = [
   { imgSrc: slide1, altText: '春の新入生相談会の様子', caption: '春の新入生相談会の様子' },
@@ -85,13 +89,13 @@ open_in_new
       <li>
         先輩の時間割（添付の3名の時間割）
         <ul>
-        <li><a href="../assets/files/peer/jikanwari_1.pdf">
+        <li><a :href="jikanwari_1" target="_blank">
         時間割①
         </a></li>
-        <li><a href="../assets/files/peer/jikanwari_2.pdf">
+        <li><a :href="jikanwari_2" target="_blank">
         時間割②
         </a></li>
-        <li><a href="../assets/files/peer/jikanwari_3.pdf">
+        <li><a :href="jikanwari_3" target="_blank">
         時間割③
         </a></li>
         </ul>
@@ -99,15 +103,8 @@ open_in_new
       
         <li>
           <a
-            href="../assets/files/peer/oyakudachi_2026.pdf"
-            >2026年度配布】新入生お役立ち情報誌</a
-          >
-        </li>
-
-        <li>
-          <a
-            href="https://students.isct.ac.jp/ja"
-            >在学生</a
+            :href="oyakudachi_2026"  target="_blank"
+            >【2026年度配布】新入生お役立ち情報誌</a
           >
         </li>
 
@@ -135,7 +132,7 @@ open_in_new
         <li>
           <a
             href="https://www.ssc.titech.ac.jp/amap/"
-            >アクセシビリティマップ</a
+            >アクセシビリティ案内サイト</a
           >
         </li>
       </ul>
