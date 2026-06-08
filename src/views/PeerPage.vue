@@ -44,8 +44,7 @@ open_in_new
           href="https://www.titech.ac.jp/student-support/students/extracurricular/jobs-campus/peersupporter"
           >ピアサポーター募集ページ（大学HP）<span class="material-symbols-outlined open_in_new_icon">
 open_in_new
-</span></a
-        >をご確認ください。
+</span></a>をご確認ください。
       </p>
       <h3>◇大学生活なんでも相談随時受付中</h3>
       <p>
@@ -77,6 +76,66 @@ open_in_new
         <li>
           <a href="https://www.tmd.ac.jp/peer/"
             >東京科学大学医歯学系ピアサポーター</a
+          >
+        </li>
+      </ul>
+      <h3>◇情報</h3>
+      <ul>
+      
+      <li>
+        先輩の時間割（添付の3名の時間割）
+        <ul>
+        <li><a href="../assets/files/peer/jikanwari_1.pdf">
+        時間割①
+        </a></li>
+        <li><a href="../assets/files/peer/jikanwari_2.pdf">
+        時間割②
+        </a></li>
+        <li><a href="../assets/files/peer/jikanwari_3.pdf">
+        時間割③
+        </a></li>
+        </ul>
+      </li>
+      
+        <li>
+          <a
+            href="../assets/files/peer/oyakudachi_2026.pdf"
+            >2026年度配布】新入生お役立ち情報誌</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://students.isct.ac.jp/ja"
+            >在学生</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.titech.ac.jp/student/pdf/life-undergraduatetimetables-2026s-04b.pdf"
+            >2026年4月入学者用100番台科目の配置一覧</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="http://www.wn.ila.titech.ac.jp/"
+            >ウェルネスHP</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.noc.cii.isct.ac.jp/wireless/service/"
+            >学内wifiについて</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.ssc.titech.ac.jp/amap/"
+            >アクセシビリティマップ</a
           >
         </li>
       </ul>
