@@ -26,7 +26,7 @@ const routes = [
   { path: '/peer', component: PeerPage },
   { path: '/flap', component: FlapPage },
   { path: '/news', component: NewsListPage },
-  { path: '/news/PeerNote20250716', component: PeerNote20250716 },
+  { path: '/news/peer-note-20250716', component: PeerNote20250716 },
   { path: '/news/home-coming-day-20250702', component: Vg20250702 },
   { path: '/news/kitmee-20250515', component: Kitmee20250515 },
   { path: '/news/kikai-20250602', component: Kikai20250602 },
