@@ -118,7 +118,7 @@ open_in_new
         <li>
           <a
             href="http://www.wn.ila.titech.ac.jp/"
-            >ウェルネスHP</a
+            >ウェルネス科目ホームページ</a
           >
         </li>
 
