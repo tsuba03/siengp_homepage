@@ -5,10 +5,28 @@ import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
 
 export const newsItems = [
   {
+    date: '2026/6/8',
+    category: '学勢調査',
+    title: '学勢調査2026 回答受付開始！',
+    content: '本日より、学勢調査2026が開始しました！<br/>教務webシステムのアンケート欄から回答できるので、ご協力をお願いします。<br/><br/>学勢調査は、二年に一度行われているアンケート調査で、みなさんから寄せられた意見を基に、学生スタッフが提言を作成、大学に奉呈しています。<br/>過去に、<br/>・キッチンカーの導入<br/>・Science Tokyo LMS 時間割欄の導入<br/>をはじめとした、様々な提言が実現しています。<br/><i>願わなければ、叶いません</i><br/>みなさんの意見をぜひお寄せください。お待ちしています！',
+    link: 'https://www.siengp.titech.ac.jp/gakuseichousa/',
+    linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
+    date: '2026/4/20',
+    category: 'ピアサポーター',
+    title: '令和8年度ピアサポーター追加募集(二次募集)のお知らせ',
+    content: '学生による学生のための相談活動「ピアサポート」に参加する学生を「追加募集(二次募集)」します。<br/>※本追加募集(二次募集)は、工学院、情報理工学院、環境・社会理工学院の所属学生を対象とします。<br/>※なお、理工学系全学院を対象としたピアサポーターの通常募集は例年12月頃に実施しています。<br/>応募締め切りは「令和8年5月1日(厳守)」です。',
+    link: 'https://students.isct.ac.jp/ja/news/f1weexj046sj',
+    linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
     date: '2026/4/6',
     category: '学勢調査',
-    title: '学勢調査2026 大学の対応を公開',
-    content: '学勢調査2026 大学の対応をHPに公開しました。',
+    title: '学勢調査2024 大学の対応を公開',
+    content: '学勢調査2024 大学の対応をHPに公開しました。',
     link: 'https://www.siengp.titech.ac.jp/gakuseichousa/',
     linkText: '詳しく見る >',
     isExternal: true,
