@@ -1,5 +1,5 @@
 <script setup>
-import kotira from '../assets/files/bbs/siengp_bbs_format.pptx?url';
+import kotira from '../assets/files/bbs/202604_siengp_bbs_format.pptx?url';
 import framePattern from '../assets/images/bbs_request/frame_pattern.png';
 import slideExample from '../assets/images/bbs_request/slide_example.jpg';
 import BadSlide from '../assets/images/bbs_request/bad_slide.PNG';
@@ -9,7 +9,7 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
   <div class="main">
     <h3 style="color: #e97142">配信の依頼方法・配信情報の制作について</h3>
     <p>
-      10月29日、新規配信受付を再開いたしました。
+      ※2026年4月14日より、フレームサイズがW1227×H910 ピクセルに、データは1MBまでに変更になりました。
       <br>ご依頼は、ssc-bbs [at] ssc.isct.ac.jp までお願いします。（メール送信の際には [at] を小文字の@に変更して下さい。）
     </p>
     <div class="item">
@@ -33,11 +33,11 @@ import GoodSlide from '../assets/images/bbs_request/good_slide.PNG';
     <div class="item">
       <h3 class="title">○ 配信情報の制作について</h3>
       <ul>
-        <li>フレームサイズ：W864×H648（ピクセル）
+        <li>フレームサイズ：W1227×H910（ピクセル）
             <br/>※下記フレームパターンのH1 ※当室の電子掲示板用フォーマットは<a :href="kotira">こちら</a>
         </li>
         <li>データの保存形式：JPEG形式（パワーポイント形式ですと当室にてファイルを開いた際にレイアウトがずれてしまうことがあります。かならずJPEG形式で保存したファイルをご送付ください）</li>
-        <li>データは、300KBまでが望ましいです。超えた場合は、配信できないことがあります。</li>
+        <li>データは、1MBまでが望ましいです。超えた場合は、配信できないことがあります。</li>
         <li>日本語表記版と英語表記版など、内容が同一の配信情報は一枚にまとめてご依頼ください。</li>
       </ul>
     </div>

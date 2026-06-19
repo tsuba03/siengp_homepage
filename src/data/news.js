@@ -2,8 +2,18 @@ import opencampus2025pdf from '../assets/files/news/opencampus_2025.pdf';
 import soudankai2025poster from '../assets/files/news/r7-9-peer-soudankai-poster.pdf';
 import soudankai2025shift from '../assets/files/news/r7-9-peer-soudankai-shift.pdf';
 import aki2025soudankai from '../assets/files/news/aki-soudankai-2025.pdf';
+import haru2026soudankai from '../assets/files/news/haru-soudankai-2026.pdf';
 
 export const newsItems = [
+  {
+    date: '2026/6/19',
+    category: 'ピアサポーター',
+    title: '「春の新入生相談会」開催報告',
+    content: 'ピアサポーターが、「春の新入生相談会」を開催しました。',
+    link: haru2026soudankai,
+    linkText: '開催報告を見る >',
+    isExternal: true,
+  },
   {
     date: '2026/6/8',
     category: '学勢調査',
@@ -11,6 +21,15 @@ export const newsItems = [
     content: '本日より、学勢調査2026が開始しました！<br/>教務webシステムのアンケート欄から回答できるので、ご協力をお願いします。<br/><br/>学勢調査は、二年に一度行われているアンケート調査で、みなさんから寄せられた意見を基に、学生スタッフが提言を作成、大学に奉呈しています。<br/>過去に、<br/>・キッチンカーの導入<br/>・Science Tokyo LMS 時間割欄の導入<br/>をはじめとした、様々な提言が実現しています。<br/><br/><i>願わなければ、叶いません</i><br/>みなさんの意見をぜひお寄せください。お待ちしています！',
     link: 'https://www.siengp.titech.ac.jp/gakuseichousa/',
     linkText: '詳しく見る >',
+    isExternal: true,
+  },
+  {
+    date: '2026/4/22',
+    category: 'ピアサポーター',
+    title: '彩燕祭にて新入生相談会開催',
+    content: 'ピアサポーターが、彩燕祭にて「新入生相談会」を開催しました。',
+    link: 'https://www.titech.ac.jp/student-support/pdf/b7f730d311673ed40210e976f0df18b4-1.pdf',
+    linkText: '開催報告を見る >',
     isExternal: true,
   },
   {
@@ -35,7 +54,7 @@ export const newsItems = [
     date: '2026/3/27-4/16',
     category: 'ピアサポーター',
     title: '「春の新入生相談会」開催のお知らせ',
-    content: 'ピアサポーター（先輩学生）による「春の新入生相談会」を実施します。<br/><br/>開催日時： 4月2日（木） 14:00-16:30<br/>4月5日（日）、6日（月） 11:00-17:00<br/> 4月8日（水）、9日（木）、10日（金）、13日（月）、15日（水）、16日（木） 12:45-16:15<br/><br/>開催場所： Taki Plaza 地下1階',
+    content: 'ピアサポーター（先輩学生）による「春の新入生相談会」を実施します。<br/><br/>開催日時： 4月2日（木） 14:00-16:30<br/>4月5日（日）、6日（月） 11:00-17:00<br/> 4月8日（水）、9日（木）、10日（金）、13日（月）、15日（水）、16日（木） 12:45-16:15<br/><br/>開催場所： Taki Plaza 地下1階<br><span style="color:red">終了しました</span>',
   },
   {
     date: '2026/3/8',
@@ -92,7 +111,7 @@ export const newsItems = [
    date: '2025/9/29',
    category: 'ピアサポーター',
    title: '「秋の大学生活なんでも相談会」開催のお知らせ',
-   content:  `履修、単位数や成績、系所属、大学生活のこと、なんでも相談に応じます。先輩に聞いてみたいこと等ありましたら、どんなことでも遠慮なく聞きにいらしてください。<br><b>相談会のシフトは<a href="${soudankai2025shift}" target="_blank" rel="noopener noreferrer">こちら</a>からご確認ください。</b><br>相談会ポスターは<a href="${soudankai2025poster}" target="_blank" rel="noopener noreferrer">こちら</a>`,
+   content:  `履修、単位数や成績、系所属、大学生活のこと、なんでも相談に応じます。先輩に聞いてみたいこと等ありましたら、どんなことでも遠慮なく聞きにいらしてください。<br><b>相談会のシフトは<a href="${soudankai2025shift}" target="_blank" rel="noopener noreferrer">こちら</a>からご確認ください。</b><br>相談会ポスターは<a href="${soudankai2025poster}" target="_blank" rel="noopener noreferrer">こちら</a><br><span style="color:red">終了しました</span>`,
    link: 'https://www.isct.ac.jp/ja/news/vxjr3pcs29wt',
    linkText: '詳しく見る >',
    isExternal: true,
